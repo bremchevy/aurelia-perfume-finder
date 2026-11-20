@@ -59,33 +59,30 @@
 }
 @media(max-width:760px){
   .hero{ min-height:970px; }
-  .hero .hero-grid{ padding:0 6%; }
+  .hero .hero-grid{ padding:0 6% 20px; }
   .hero::before{ background:linear-gradient(90deg,rgba(27,10,3,.67),rgba(27,10,3,.1)),linear-gradient(0deg,rgba(27,8,6,.88),transparent 60%,rgba(11,8,7,.15)); }
-  .hero-bottle-stage{ height:54%; width:58%; left:42%; top:26%; }
+  /* Reserve a separate visual band between the introduction and the links. */
+  .hero-bottle-stage{ height:300px; width:66%; left:29%; top:calc(210px + clamp(10.4rem,36.8vw,16rem)); }
   .hero-bottle-stage img{ transform:rotate(18deg); }
-  .hero-copy{ width:100%; padding:42px 0 190px; }
+  .hero-copy{ width:100%; padding:42px 0 0; }
   .hero .eyebrow{ font-size:.53rem; letter-spacing:.17em; gap:12px; margin-bottom:65px; }
   .hero h1{ font-size:clamp(6.5rem,23vw,10rem); }
   .hero h1 em{ margin-left:8%; }
-  .hero .lede{ margin-top:240px; max-width:190px; font-size:.72rem; }
-  .hero-ctas{ gap:20px; margin-top:22px; max-width:245px; }
+  .hero .lede{ margin-top:22px; max-width:190px; font-size:.72rem; }
+  .hero-ctas{ gap:20px; margin-top:340px; max-width:245px; }
   .hero-ctas .btn-gold{ font-size:.57rem; padding:17px 20px; gap:30px; }
   .hero-collection{ font-size:.58rem; }
-  .hero-signature{ top:9%; right:6%; font-size:.47rem; }
-  .hero-impression{ right:6%; bottom:29%; }
+  .hero-signature{ top:88px; right:6%; font-size:.47rem; }
+  .hero-impression{ position:relative; right:auto; bottom:auto; margin-top:32px; }
   .hero-impression>span{ font-size:.45rem; letter-spacing:.08em; }
   .hero-impression p{ font-size:1.6rem; }
-  .hero-bottom{ left:6%; right:6%; bottom:20px; gap:12px; flex-wrap:wrap; }
+  .hero-bottom{ position:relative; left:auto; right:auto; bottom:auto; margin-top:32px; gap:12px; flex-wrap:wrap; }
   .hero-notes{ width:100%; justify-content:space-between; gap:10px; order:3; font-size:.46rem; }
   .hero-note{ max-width:170px; font-size:.5rem; line-height:1.8; }
   .hero-motion{ font-size:.5rem; }
 }
 @media(max-width:370px){
-  .hero{ min-height:960px; }
   .hero h1{ font-size:6.5rem; }
-  .hero-bottle-stage{ height:48%; top:30%; left:40%; width:62%; }
-  .hero .lede{ margin-top:245px; }
-  .hero-impression{ bottom:30%; }
   .hero-impression p{ font-size:1.3rem; }
   .hero-ctas{ max-width:230px; }
 }
