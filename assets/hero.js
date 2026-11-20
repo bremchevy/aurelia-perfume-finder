@@ -19,7 +19,7 @@
   function updateControl() {
     var playing = !film.paused && !film.ended;
     hero.classList.toggle('is-playing', playing);
-    label.textContent = playing ? 'Pause film' : 'Play film';
+    label.textContent = playing ? 'Pause atmosphere' : 'Play atmosphere';
     toggle.setAttribute('aria-label', playing ? 'Pause decorative fragrance film' : 'Play decorative fragrance film');
   }
 
