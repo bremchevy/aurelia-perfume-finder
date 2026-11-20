@@ -440,38 +440,32 @@
       <!-- Hero -->
       <section class="hero" id="aureliaHero" aria-labelledby="heroTitle">
         <div class="hero-film-stage" aria-hidden="true">
-          <img src="assets/hero-poster.webp" alt="" width="864" height="1152" fetchpriority="high" />
+          <img src="assets/hero-poster.webp" alt="" width="1024" height="640" fetchpriority="high" />
           <video id="heroFilm" data-src="assets/hero-film.mp4" muted loop playsinline preload="none" tabindex="-1" disablepictureinpicture></video>
         </div>
-        <div class="hero-wordmark" aria-hidden="true">AURELIA</div>
-        <p class="hero-signature" aria-hidden="true">The art of attraction.</p>
-        <span class="hero-side-label" aria-hidden="true">A world of scent, a world of you</span>
+        <div class="hero-bottle-stage" aria-hidden="true"><img src="assets/hero-bottle.webp" alt="" width="485" height="1228" fetchpriority="high" /></div>
+        <div class="hero-glow" aria-hidden="true"></div>
+        <p class="hero-signature">The fragrance discovery<br />Eight scents. Endless possibility.</p>
         <div class="wrap hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow">Not just a fragrance. A feeling.</p>
-            <span class="hero-edition">Aurelia — The scent discovery</span>
-            <h1 id="heroTitle"><span>Find the scent</span> <span>that</span><span class="hero-last"><em>finds you.</em></span></h1>
-            <p class="lede">Some things can't be explained.<br />Only felt. Discover the fragrance that feels unmistakably like you.</p>
+            <p class="eyebrow">Good taste. Dangerous chemistry.</p>
+            <h1 id="heroTitle">You,<br /><em>distilled.</em></h1>
+            <p class="lede">For the version of you<br />they can't quite forget.</p>
             <div class="hero-ctas">
-              <a class="btn btn-gold" href="#finder">Take the scent quiz <svg width="19" height="12" viewBox="0 0 20 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h18M13 1l5 5-5 5" /></svg></a>
+              <a class="btn btn-gold" href="#finder">Discover your scent <svg width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12" /></svg></a>
               <a class="hero-collection" href="#collection">Explore the collection</a>
             </div>
-            <p class="hero-note">Four questions. Eight fragrances. One instinct: yours.</p>
           </div>
+          <div class="hero-impression"><span>An impression in three acts</span><p>Citrus. Petal. Amber.</p></div>
           <div class="hero-bottom">
-            <div class="hero-notes" aria-label="A world of fragrance notes">
-              <span class="hero-notes-label">An unfolding impression</span>
-              <div class="hero-scent"><small>01 / Awaken</small><span>Citrus</span></div>
-              <div class="hero-scent"><small>02 / Captivate</small><span>Petal</span></div>
-              <div class="hero-scent"><small>03 / Linger</small><span>Amber</span></div>
-            </div>
+            <p class="hero-note">Four questions. A feeling only you can name.</p>
+            <div class="hero-notes" aria-label="The three fragrance acts"><span>01 / Awaken</span><span>02 / Captivate</span><span>03 / Linger</span></div>
             <div class="hero-film-controls">
-              <span class="hero-film-caption" aria-hidden="true">A moment, suspended</span>
-              <span class="hero-film-track" aria-hidden="true"><span class="hero-film-progress" id="heroFilmProgress"></span></span>
+              <span class="hero-film-progress" id="heroFilmProgress" hidden></span>
               <button class="hero-motion" id="heroMotion" type="button" aria-label="Play decorative fragrance film" aria-controls="heroFilm" hidden>
                 <svg class="film-play" viewBox="0 0 10 12" aria-hidden="true"><path d="M1 0l9 6-9 6z" /></svg>
                 <svg class="film-pause" viewBox="0 0 10 12" aria-hidden="true"><path d="M0 0h3v12H0zM7 0h3v12H7z" /></svg>
-                <span id="heroMotionLabel">Play film</span>
+                <span id="heroMotionLabel">Play atmosphere</span>
               </button>
             </div>
           </div>
